@@ -3,13 +3,14 @@
   "extends": ["plugin:prettier/recommended", "prettier", "eslint:recommended"],
   "plugins": ["@typescript-eslint"],
   "parserOptions": {
-    "ecmaVersion": 2022,
+    "ecmaVersion": 2020,
     "sourceType": "module",
     "project": "tsconfig.json"
   },
   "env": {
     "node": true,
-    "es2020": true
+    "es2020": true,
+    "jest": true
   },
   "rules": {
     "no-var": "error",
